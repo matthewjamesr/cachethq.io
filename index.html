@@ -1,23 +1,57 @@
 ---
-layout: default
+layout: index
+title: Home
+permalink: /
 ---
 
-<div class="home">
+<div id="service">
+    <div class="container">
+        <div class="row centered">
+            <div class="col-md-4">
+                <i class="fa fa-heart-o"></i>
+                <h4>Something awesome</h4>
+                <p>It's incredible.</p>
+                <p><br/><a href="#" class="btn btn-theme">More Info</a></p>
+            </div>
+            <div class="col-md-4">
+                <i class="fa fa-flask"></i>
+                <h4>API</h4>
+                <p>Bleg.</p>
+                <p><br/><a href="#" class="btn btn-theme">More Info</a></p>
+            </div>
+            <div class="col-md-4">
+                <i class="fa fa-trophy"></i>
+                <h4>Beautiful</h4>
+                <p>Wins beautiful awards.</p>
+                <p><br/><a href="#" class="btn btn-theme">More Info</a></p>
+            </div>
+        </div>
+    </div>
+</div>
 
-  <h1 class="page-heading">Posts</h1>
+<div class="container mtb">
+    <div class="row">
+        <div class="col-lg-4">
+            <h4>Learn more about Cachet</h4>
+            <p>{{ site.about }}</p>
+            <p><br/><a href="{{ "/about/" | prepend: site.baseurl }}" class="btn btn-theme">More Info</a></p>
+        </div>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <!-- <div class="col-lg-4">
+            <h4>Frequently Asked</h4>
+            <div class="hline"></div>
+            {% for post in site.categories['question'] %}
+                <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
+            {% endfor %}
+        </div> -->
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+        <div class="col-lg-8">
+            <h4>Latest Posts</h4>
+            <div class="hline"></div>
+            {% for post in site.categories['blog'] limit:5 %}
+            <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }} by {{ site.authors[post.author].display_name }}</a></p>
+            {% endfor %}
+        </div>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+    </div>
 </div>

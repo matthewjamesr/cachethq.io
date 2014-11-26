@@ -12,11 +12,38 @@ timezone: Europe/London
 # Build settings
 markdown: kramdown
 
+# Theme customizations
+colors:
+  primary: "#0288D1" #"#F70031"
+  primary_rgb: "0,179,254" #"247,0,49" #rgb of the primary. Needed in some places for the transparency effect.
+  secondary: "#303F9F" #"#33004D"
+  link: "#0288D1"
+  link_hover: "#01579B"
+  footer_heading: "#ffffff"
+  footer_content: "#ffffff"
+
+# Team members
 authors:
   james:
     display_name: James Brooks
+    position: Lead Developer
     gravatar: 13616b6551a3854378f9e6fea964e519
     email: jbrooksuk@me.com
     web: http://james-brooks.uk
-    twitter: jbrooksuk
-    github: jbrooksuk
+    social:
+      - title: envelope
+        url: mailto:jbrooksuk@me.com
+      - title: twitter
+        url: https://twitter.com/jbrooksuk
+      - title: github
+        url: https://github.com/jbrooksuk
+
+# Social links (footer)
+social:
+  - title: twitter
+    url: https://twitter.com/cachethq
+  - title: github
+    url: https://github.com/cachethq
+
+# About text
+about: Open Source StatusPage.io alternative written in PHP.
