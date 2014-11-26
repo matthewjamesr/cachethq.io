@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CachetHQ</title>
+    <description>Open Source StatusPage.io alternative written in PHP
+</description>
+    <link>http://cachethq.github.io/</link>
+    <atom:link href="http://cachethq.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Wed, 26 Nov 2014 13:18:15 +0000</pubDate>
+    <lastBuildDate>Wed, 26 Nov 2014 13:18:15 +0000</lastBuildDate>
+    <generator>Jekyll v2.5.1</generator>
+    
+      <item>
+        <title>CachetHQ</title>
+        <description>&lt;p&gt;Looking for more information? Check out the original &lt;a href=&quot;http://james-brooks.uk/cachet&quot;&gt;blog post&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 10 Nov 2014 21:12:28 +0000</pubDate>
+        <link>http://cachethq.github.io/blog/news/2014/11/10/cachethq.html</link>
+        <guid isPermaLink="true">http://cachethq.github.io/blog/news/2014/11/10/cachethq.html</guid>
+        
+        
+        <category>blog</category>
+        
+        <category>news</category>
+        
+      </item>
+    
+  </channel>
+</rss>
