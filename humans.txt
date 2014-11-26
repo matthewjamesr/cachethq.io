@@ -1,0 +1,9 @@
+/* TEAM */
+Lead Developer: James Brooks
+Contact: jbrooksuk [at] me.com
+Twitter: @jbrooksuk
+From: Stoke-on-Trent, England
+
+/* THANKS */
+
+Laravel: Taylor Otwell and everybody who makes it awesome.
