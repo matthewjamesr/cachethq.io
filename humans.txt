@@ -4,6 +4,10 @@ Contact: jbrooksuk [at] me.com
 Twitter: @jbrooksuk
 From: Stoke-on-Trent, England
 
+Developer: Thomas Coleman (ilikeprograms)
+Contact: tom@ilikeprograms.com
+Website: http://ilikeprograms.com
+
 /* THANKS */
 
 Laravel: Taylor Otwell and everybody who makes it awesome.
