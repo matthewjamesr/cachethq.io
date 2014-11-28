@@ -6,36 +6,22 @@ comments: true
 {% include wrap.html %}
 
 {% assign author = site.authors[page.author] %}
-<div class="container mtb">
-    <div class="row">
-        <div class="col-lg-8">
-            <a href="{{ page.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ page.title }}</h3></a>
-            <p><csmall>{{ page.date | date: "%b %-d, %Y" }}. | By: {{ page.author }}</csmall></p>
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ author.display_name }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+  </header>
 
-            {{ content }}
+  <article class="post-content">
+    {{ content }}
+  </article>
+  
+  {% include disqus.html %}
 
-            <div class="spacing"></div>
-            
-            {% include disqus.html %}
-
-            <footer class="post-footer">
-              <div class="meta">
-                <img src="http://www.gravatar.com/avatar/{{ author.gravatar }}?s=40">
-                <span>This post was published by </span>
-                <a href="{{ author.website }}" target="_blank">{{ author.display_name }}</a>
-              </div>
-            </footer>
-
-            <!-- <h6>SHARE:</h6>
-            <p class="share">
-                <a href="#"><i class="fa fa-twitter"></i></a>
-                <a href="#"><i class="fa fa-facebook"></i></a>
-                <a href="#"><i class="fa fa-tumblr"></i></a>
-                <a href="#"><i class="fa fa-google-plus"></i></a>
-            </p> -->
-        </div>
-
-        {% include sidebar.html %}
-
-    </div>
+  <footer class="post-footer">
+  	<div class="meta">
+  		<img src="http://www.gravatar.com/avatar/{{ author.gravatar }}?s=40">
+  		<span class="author"><a href="{{ author.website }}" target="_blank">{{ author.display_name }}</a></span>
+  	</div>
+  </footer>
 </div>

@@ -2,7 +2,7 @@
 title: CachetHQ
 email: jbrooksuk@me.com
 description: > # this means to ignore newlines until "baseurl:"
-  Open Source StatusPage.io alternative written in PHP
+  Cachet is an Open Source StatusPage.io alternative written in PHP
 baseurl: ""
 url: "http://cachethq.github.io" # the base hostname & protocol for your site
 twitter_username: cachethq
