@@ -472,3 +472,8 @@ a.anchor{
     top: -80px;
     visibility: hidden;
 }
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    margin: 0 auto;
+    text-align: center;
+}
