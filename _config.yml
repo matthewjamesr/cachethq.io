@@ -8,6 +8,7 @@ url: "http://cachethq.github.io" # the base hostname & protocol for your site
 twitter_username: cachethq
 github_username:  cachethq
 timezone: Europe/London
+project_title: Cachet
 
 # Build settings
 markdown: kramdown
