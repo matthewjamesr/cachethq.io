@@ -477,3 +477,8 @@ a.anchor{
     margin: 0 auto;
     text-align: center;
 }
+
+ul {
+    margin-left: 15px;
+    color: #303F9F;
+}
