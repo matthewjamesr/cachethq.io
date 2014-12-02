@@ -477,3 +477,12 @@ a.anchor{
     margin: 0 auto;
     text-align: center;
 }
+
+.he-wrap {
+    margin-top: 5px;
+}
+
+ul {
+    margin-left: 15px;
+    color: #303F9F;
+}

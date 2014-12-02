@@ -8,6 +8,7 @@ url: "http://cachethq.github.io" # the base hostname & protocol for your site
 twitter_username: cachethq
 github_username:  cachethq
 timezone: Europe/London
+project_title: Cachet
 
 # Build settings
 markdown: kramdown
@@ -37,6 +38,52 @@ authors:
         url: https://twitter.com/jbrooksuk
       - title: github
         url: https://github.com/jbrooksuk
+  thomas:
+    display_name: Thomas Coleman
+    position: Developer
+    gravatar: f1caa5a80e83fad625ff3963a14ce3cf
+    email: tom@ilikeprograms.com
+    web: http://ilikeprograms.com
+    social:
+      - title: envelope
+        url: mailto:tom@ilikeprograms.com
+      - title: github
+        url: https://github.com/ilikeprograms
+  manavo:
+    display_name: Philip Manavopoulos
+    position: Developer
+    gravatar: 604a97350ee8fa8940927e2a01c74038
+    email: manavo@gmail.com
+    web: http://manavo.com
+    social:
+      - title: envelope
+        url: mailto:manavo@gmail.com
+      - title: github
+        url: https://github.com/manavo
+  ehesp:
+    display_name: Elliot Hesp
+    position: Developer
+    gravatar: 215db0deb447d97a916ea780771b8c64
+    email: elliot.hesp@gmail.com
+    web: https://elliothesp.co.uk
+    social:
+      - title: envelope
+        url: mailto:elliot.hesp@gmail.com
+      - title: github
+        url: https://github.com/ehesp
+  Hipsterbrown:
+    display_name: Nick Hehr
+    position: Designer
+#    gravatar: not sure?
+    email: headhipster@hipsterbrown.com
+    web: http://hipsterbrown.com
+    social:
+        - title: twitter
+          url: https://twitter.com/hipsterbrown
+        - title: github
+          url: https://github.com/hipsterbrown
+        - title: codepen
+          url: http://codepen.io/HipsterBrown
 
 # Social links (footer)
 social:
