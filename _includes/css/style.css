@@ -478,6 +478,10 @@ a.anchor{
     text-align: center;
 }
 
+.he-wrap {
+    margin-top: 5px;
+}
+
 ul {
     margin-left: 15px;
     color: #303F9F;
