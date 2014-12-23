@@ -1,23 +1,71 @@
 ---
-layout: default
+layout: index
+title: Home
+permalink: /
 ---
 
-<div class="home">
+<div id="service">
+    <div class="container">
+        <div class="row centered">
+            <div class="col-md-4">
+                <i class="fa fa-heart-o"></i>
+                <h4>Something awesome</h4>
+                <p>It's incredible.</p>
+                <p><br/><a href="#" class="btn btn-theme">More Info</a></p>
+            </div>
+            <div class="col-md-4">
+                <i class="fa fa-flask"></i>
+                <h4>API</h4>
+                <p>Bleg.</p>
+                <p><br/><a href="#" class="btn btn-theme">More Info</a></p>
+            </div>
+            <div class="col-md-4">
+                <i class="fa fa-trophy"></i>
+                <h4>Beautiful</h4>
+                <p>Wins beautiful awards.</p>
+                <p><br/><a href="#" class="btn btn-theme">More Info</a></p>
+            </div>
+        </div>
+    </div>
+</div>
 
-  <h1 class="page-heading">Posts</h1>
+<div class="container mtb">
+    <div class="row">
+        <div class="col-lg-4">
+            <h4>Learn more about Cachet</h4>
+            <div class='media'>
+                <a class='media-left' href='javascript: void(0);'>
+                  <img src="https://raw.githubusercontent.com/cachethq/assets/master/images/logo/logo-blue.png" alt="Cachet Logo/Maskot (Barry the Seal)" height="90" width="90" />
+                </a>
+                <div class='media-body'>
+                    <p>
+                      Cachet is a Simple to use, easy to manage, Status Page project. Ever had problems making sure users know whats going on with your systems.
+                      Ever wish you would stop getting email asking if your service is down. No Problem!
+                      Cachet can be easily installed and used to track third party service, and let you users know whats going on!
+                    </p>
+                    <p>But dont take our word for it, its been given <strong>Barry's</strong> Seal of Approval!</p>
+                    <p><a href="{{ "/about/" | prepend: site.baseurl }}" class="btn btn-theme">More Info</a></p>
+                </div>
+            </div>
+        </div>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <!-- <div class="col-lg-4">
+            <h4>Frequently Asked</h4>
+            <div class="hline"></div>
+            {% for post in site.categories['question'] %}
+                <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
+            {% endfor %}
+        </div> -->
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+        <div class="col-lg-8">
+            <h4>Latest Posts</h4>
+            <div class="hline"></div>
+            {% for post in site.categories['blog'] limit:5 %}
+              <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }} by <em>{{ site.authors[post.author].display_name }}</em></a>
+                <span class="pull-right">{{ post.date | date: "%b %-d, %Y" }}</span>
+              </p>
+            {% endfor %}
+        </div>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+    </div>
 </div>
