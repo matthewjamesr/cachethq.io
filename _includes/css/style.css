@@ -8,8 +8,6 @@
 	URL: http://alvarez.is
 
 ################################################################# */
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,700,900);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,900);
 
 /*	################################################################
 	1. GENERAL STRUCTURES
@@ -24,7 +22,7 @@ body {
 	margin: 0;
 	height: 100%;
 	color: #333;
-	font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica', sans-serif;
+	font-family: 'Lato', 'Helvetica Neue', 'Helvetica', sans-serif;
 	font-weight: 400;
 }
 
