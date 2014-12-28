@@ -8,8 +8,6 @@
 	URL: http://alvarez.is
 
 ################################################################# */
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,700,900);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,900);
 
 /*	################################################################
 	1. GENERAL STRUCTURES
@@ -24,7 +22,7 @@ body {
 	margin: 0;
 	height: 100%;
 	color: #333;
-	font-family: 'Helvetica Neue', 'Helvetica', 'Open Sans', sans-serif;
+	font-family: 'Lato', 'Helvetica Neue', 'Helvetica', sans-serif;
 	font-weight: 400;
 }
 
@@ -34,13 +32,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
+	color: #999;
 	padding: 0;
 	margin-bottom: 12px;
-	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 24px;
-	color: {{ site.colors.secondary }};
 	margin-top: 10px;
 }
 
@@ -67,14 +64,14 @@ a:focus {
 }
 
 ::-moz-selection  {
-	color: #fff;
+	color: #999;
 	text-shadow:none;
-	background:{{ site.colors.secondary }};
+	background:{{ site.colors.primary }};
 }
 ::selection {
-	color: #fff;
+	color: #999;
 	text-shadow:none;
-	background:{{ site.colors.secondary }};
+	background:{{ site.colors.primary }};
 }
 
 .centered {
@@ -90,34 +87,42 @@ a:focus {
 	margin-bottom: 0px;
 }
 
-.navbar-brand {
-	font-family: 'Raleway', sans-serif;
-	font-weight: 600;
-	font-size: 1.6em;
+.navbar>.container .navbar-brand {
+	margin-top: 10px;
+    margin-left: 10px;
+    padding: 0;
+    text-indent: -9999px;
+    background-repeat: no-repeat;
+    background-image: url("../img/Cachet.png");
+    width: 160px;
+    height: 30px
 }
 
-.navbar-header .navbar-brand {
-	color: white;
+@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min--moz-device-pixel-ratio:2),only screen and (-o-min-device-pixel-ratio:2/1),only screen and (min-device-pixel-ratio:2),only screen and (min-resolution: 192dpi),only screen and (min-resolution:2dppx) {
+    .navbar>.container .navbar-brand {
+        background-image:url("../img/Cachet@2x.png");
+        -webkit-background-size: 160px 30px;
+        background-size: 160px 30px
+    }
 }
+
 
 .navbar-default .navbar-nav > li > a {
-	color: white;
 	font-weight: 700;
 	font-size: 12px;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
-	color: white;
+	color: #999;
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	color: white;
+	color: #7ED321;
 	background-color: transparent;
 }
 
 .navbar-default {
 	background-color: {{ site.colors.secondary }};
-	border-color: transparent;
 }
 
 .dropdown-menu {
@@ -132,8 +137,8 @@ a:focus {
 
 .btn-theme {
   color: #fff;
-  background-color: {{ site.colors.secondary }};
-  border-color: {{ site.colors.secondary }};
+  background-color: #7ED321;
+  border-color: #6DB81C;
   margin: 4px;
 }
 .btn-theme:hover,
@@ -141,7 +146,7 @@ a:focus {
 .btn-theme:active,
 .btn-theme.active,
 .open .dropdown-toggle.btn-theme {
-  color: #fff;
+  color: #999;
   background-color: {{ site.colors.primary }};
   border-color: {{ site.colors.primary }};
 }
@@ -197,7 +202,7 @@ a:focus {
 }
 
 .hline-w {
-	border-bottom: 2px solid #ffffff;
+	border-bottom: 1px solid #ffffff;
 	margin-bottom: 25px;
 }
 /*	################################################################
@@ -212,13 +217,12 @@ a:focus {
 	text-align: center;
 }
 
-#headerwrap h3, h5 {
-	color: white;
+#headerwrap h3, h4 {
+	color: #666;
 	font-weight: 400;
 }
 
 #headerwrap h1 {
-	color: white;
 	margin-bottom: 25px;
 }
 
@@ -347,7 +351,7 @@ a:focus {
 #footerwrap {
 	padding-top: 60px;
 	padding-bottom: 60px;
-	background: {{ site.colors.secondary }};
+	background: {{ site.colors.primary }};
 }
 
 #footerwrap p {
@@ -382,14 +386,27 @@ a:focus {
 }
 
 #blue h3 {
-	color: white;
+	color: #666;
 	margin-left: 15px;
 }
 
 .ctitle {
-	color: {{ site.colors.primary }};
+	color: #666;
 	font-weight: 700;
 	margin-bottom: 15px;
+}
+
+.post-title {
+	color: #666;
+}
+
+
+.post-content h1, 
+.post-content h2, 
+.post-content h3, 
+.post-content h4, 
+.post-content h5 {
+	color: #666;
 }
 
 csmall {
@@ -488,5 +505,5 @@ a.anchor{
 
 ul {
     margin-left: 15px;
-    color: #303F9F;
+    color: #666;
 }
