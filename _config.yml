@@ -71,6 +71,17 @@ authors:
         url: mailto:elliot.hesp@gmail.com
       - title: github
         url: https://github.com/ehesp
+  joecohens:
+    display_name: Joe Cohens
+    position: Developer
+    # gravatar: Not sure?
+    email: joseph.cohen@dinkbit.com
+    web: http://joecohens.com
+    social:
+      - title: envelope
+        url: mailto:joseph.cohen@dinkbit.com
+      - title: github
+        url: https://github.com/joecohens
   Hipsterbrown:
     display_name: Nick Hehr
     position: Designer
