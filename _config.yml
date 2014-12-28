@@ -72,12 +72,14 @@ authors:
       - title: github
         url: https://github.com/ehesp
   joecohens:
-    display_name: Joe Cohens
+    display_name: Joe Cohen
     position: Developer
-    # gravatar: Not sure?
+    gravatar: b19a7e3567c963fe3116e140ab12b8c0
     email: joseph.cohen@dinkbit.com
     web: http://joecohens.com
     social:
+      - title: twitter
+        url: https://twitter.com/joecohens
       - title: envelope
         url: mailto:joseph.cohen@dinkbit.com
       - title: github
