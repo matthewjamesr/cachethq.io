@@ -56,7 +56,7 @@ permalink: /
             <h4>Latest Posts</h4>
             <div class="hline"></div>
             {% for post in site.categories['blog'] limit:5 %}
-              <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }} by <em>{{ site.authors[post.author].display_name }}</em></a>
+              <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }} by <em>{{ site.data.team.authors[post.author].display_name }}</em></a>
                 <span class="pull-right">{{ post.date | date: "%b %-d, %Y" }}</span>
               </p>
             {% endfor %}
