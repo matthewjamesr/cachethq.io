@@ -5,6 +5,8 @@ colors:
   secondary: "#fff" # "#33004D"
   link: "#7ed321"
   link_hover: "#01579b"
+  primary_accent: "#7ED321"
+  secondary_accent: "#6DB81C"
   icons: "#5e5e5e"
   footer_heading: "#666"
   footer_content: "#999"
