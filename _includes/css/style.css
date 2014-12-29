@@ -47,7 +47,7 @@ img {
 }
 
 a {
-    color:{{ site.colors.link }};
+    color:{{ site.data.theme.colors.link }};
     padding: 0;
 	margin: 0;
 	text-decoration: none;
@@ -60,18 +60,18 @@ a {
 a:hover,
 a:focus {
   text-decoration: none;
-  color:{{ site.colors.link_hover }};
+  color:{{ site.data.theme.colors.link_hover }};
 }
 
 ::-moz-selection  {
 	color: #999;
 	text-shadow:none;
-	background:{{ site.colors.primary }};
+	background:{{ site.data.theme.colors.primary }};
 }
 ::selection {
 	color: #999;
 	text-shadow:none;
-	background:{{ site.colors.primary }};
+	background:{{ site.data.theme.colors.primary }};
 }
 
 .centered {
@@ -122,11 +122,11 @@ a:focus {
 }
 
 .navbar-default {
-	background-color: {{ site.colors.secondary }};
+	background-color: {{ site.data.theme.colors.secondary }};
 }
 
 .dropdown-menu {
-	background: {{ site.colors.secondary }};
+	background: {{ site.data.theme.colors.secondary }};
 }
 
 .dropdown-menu > li > a {
@@ -147,8 +147,8 @@ a:focus {
 .btn-theme.active,
 .open .dropdown-toggle.btn-theme {
   color: #999;
-  background-color: {{ site.colors.primary }};
-  border-color: {{ site.colors.primary }};
+  background-color: {{ site.data.theme.colors.primary }};
+  border-color: {{ site.data.theme.colors.primary }};
 }
 
 .dmbutton:hover,
@@ -198,7 +198,7 @@ a:focus {
 }
 
 .hline {
-	border-bottom: 2px solid {{ site.colors.secondary }};
+	border-bottom: 2px solid {{ site.data.theme.colors.secondary }};
 }
 
 .hline-w {
@@ -210,7 +210,7 @@ a:focus {
 ################################################################# */
 
 #headerwrap {
-	background-color: {{ site.colors.primary }};
+	background-color: {{ site.data.theme.colors.primary }};
 	min-height: 550px;
 	padding-top: 100px;
 	padding-bottom: 0px;
@@ -237,7 +237,7 @@ a:focus {
 }
 
 #service i {
-	color: {{ site.colors.primary }};
+	color: {{ site.data.theme.colors.primary }};
 	font-size: 60px;
 	padding: 15px;
 }
@@ -285,15 +285,15 @@ a:focus {
 {
 	height:100%;
 	width:100%;
-	background-color:{{ site.colors.primary }};
-	background-color:rgba({{ site.colors.primary_rgb }},.9);
+	background-color:{{ site.data.theme.colors.primary }};
+	background-color:rgba({{ site.data.theme.colors.primary_rgb }},.9);
 	text-align:center;
 }
 
 /* Testimonials Wrap */
 #twrapback {
-    background-color: {{ site.colors.primary }};
-    background-color:rgba({{ site.colors.primary_rgb }},.8);
+    background-color: {{ site.data.theme.colors.primary }};
+    background-color:rgba({{ site.data.theme.colors.primary_rgb }},.8);
     position: absolute;
     top: 0;
     left: 0;
@@ -351,25 +351,25 @@ a:focus {
 #footerwrap {
 	padding-top: 60px;
 	padding-bottom: 60px;
-	background: {{ site.colors.primary }};
+	background: {{ site.data.theme.colors.primary }};
 }
 
 #footerwrap p {
-	color: {{ site.colors.footer_content }};
+	color: {{ site.data.theme.colors.footer_content }};
 }
 
 #footerwrap h4 {
-	color: {{ site.colors.footer_heading }};
+	color: {{ site.data.theme.colors.footer_heading }};
 }
 
 #footerwrap i {
 	font-size: 30px;
-	color: {{ site.colors.footer_content }};
+	color: {{ site.data.theme.colors.footer_content }};
 	padding-right: 25px;
 }
 
 #footerwrap i:hover {
-	color: {{ site.colors.primary }}
+	color: {{ site.data.theme.colors.primary }}
 }
 
 /*	################################################################
@@ -378,7 +378,7 @@ a:focus {
 /* General Tweaks */
 
 #blue {
-	background: {{ site.colors.primary }};
+	background: {{ site.data.theme.colors.primary }};
 	margin-top: 60px;
 	margin-bottom: 60px;
 	padding-top: 25px;
@@ -401,10 +401,10 @@ a:focus {
 }
 
 
-.post-content h1, 
-.post-content h2, 
-.post-content h3, 
-.post-content h4, 
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4,
 .post-content h5 {
 	color: #666;
 }
@@ -420,7 +420,7 @@ csmall {
 }
 
 .badge-theme {
-	background: {{ site.colors.primary }};
+	background: {{ site.data.theme.colors.primary }};
 }
 
 /* Contact Page */
