@@ -1,0 +1,83 @@
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4,
+.post-content h5 {
+    color: #666;
+}
+
+csmall {
+    font-size: 12px;
+    color: #b3b3b3;
+}
+
+.spacing {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.badge-theme {
+    background: $cachet_base_medium;
+}
+
+.popular-posts {
+    margin: 0px;
+    padding-left: 0px;
+    }
+
+.popular-posts li {
+    list-style: none;
+    margin-bottom: 20px;
+    min-height: 70px;
+}
+.popular-posts li a,
+.popular-posts li a:hover {
+    color:#2f2f2f;
+    text-decoration: none;
+    }
+
+.popular-posts li img {
+    float: left;
+    margin-right: 20px;
+    }
+
+.popular-posts li em {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: #b3b3b3
+    }
+
+.ctitle {
+    color: #666;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.post-title {
+    color: #666;
+}
+
+.popular-posts p {
+    line-height: normal;
+    margin-bottom: auto;
+}
+
+.share i {
+    padding-right: 15px;
+    font-size: 18px;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -80px;
+    visibility: hidden;
+}
+
+.he-wrap {
+    margin-top: 5px;
+}
+
+ul {
+    margin-left: 15px;
+}

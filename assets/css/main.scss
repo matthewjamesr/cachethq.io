@@ -1,0 +1,29 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+// Import dependencies
+@import "modules/fontawesome";
+@import "modules/bootstrap";
+
+// Import globals
+@import "palette";
+@import "global";
+
+// Module overrides
+@import "modules/navbar";
+@import "modules/dropdowns";
+@import "modules/btns";
+@import "modules/margins";
+@import "modules/hrs";
+@import "modules/carousel";
+
+// Import partials
+@import "partials/footer";
+
+// Import pages
+@import "pages/home";
+@import "pages/blog";
+@import "pages/about";
+@import "pages/testimonials";
+@import "pages/contact";

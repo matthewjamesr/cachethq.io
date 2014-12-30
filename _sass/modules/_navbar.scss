@@ -1,0 +1,42 @@
+.navbar {
+    min-height: 70px;
+    padding-top: 10px;
+    margin-bottom: 0px;
+}
+
+.navbar-default {
+    background-color: $cachet_base_light;
+}
+
+.navbar>.container .navbar-brand {
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 0;
+    text-indent: -9999px;
+    background-repeat: no-repeat;
+    background-image: url("../img/Cachet.png");
+    width: 160px;
+    height: 30px
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min--moz-device-pixel-ratio:2),only screen and (-o-min-device-pixel-ratio:2/1),only screen and (min-device-pixel-ratio:2),only screen and (min-resolution: 192dpi),only screen and (min-resolution:2dppx) {
+    .navbar>.container .navbar-brand {
+        background-image:url("../img/Cachet@2x.png");
+        -webkit-background-size: 160px 30px;
+        background-size: 160px 30px
+    }
+}
+
+.navbar-default .navbar-nav > li > a {
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #999;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: $cachet_primary;
+    background-color: transparent;
+}

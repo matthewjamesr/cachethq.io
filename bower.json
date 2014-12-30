@@ -1,0 +1,11 @@
+{
+  "name": "cachethq.github.io",
+  "version": "0.1.0",
+  "homepage": "https://github.com/cachethq/cachethq.github.io",
+  "description": "CachetHQ gh-pages",
+  "private": true,
+  "dependencies": {
+    "bootstrap-sass-official": "~3.3.1",
+    "fontawesome": "~4.2.0"
+  }
+}

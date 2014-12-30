@@ -12,6 +12,9 @@ project_title: Cachet
 
 # Build settings
 markdown: kramdown
+sass:
+  sass_dir: _sass
+  style: :compressed
 
 # Social links (footer)
 social:
@@ -22,3 +25,7 @@ social:
 
 # About text
 about: Open Source StatusPage.io alternative written in PHP.
+
+exclude:
+  - "bower.json"
+  - "bower_components"

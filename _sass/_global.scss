@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Lato', 'Helvetica Neue', 'Helvetica', sans-serif;
+    font-weight: 400;
+    color: $cachet_gray;
+    background: #ffffff;
+    height: 100%;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+p {
+    color: #999;
+    padding: 0;
+    margin-bottom: 12px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 10px;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+a {
+    color: $cachet_link;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    -webkit-transition: background-color .4s linear, color .4s linear;
+    -moz-transition: background-color .4s linear, color .4s linear;
+    -o-transition: background-color .4s linear, color .4s linear;
+    -ms-transition: background-color .4s linear, color .4s linear;
+    transition: background-color .4s linear, color .4s linear;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+  color: $cachet_link_hover;
+}
+
+::-moz-selection  {
+    color: #999;
+    text-shadow:none;
+    background: $cachet_base_dark;
+}
+
+::selection {
+    color: #999;
+    text-shadow:none;
+    background: $cachet_base_dark;
+}
+
+.centered {
+    text-align: center
+}
+
+#blue {
+    background: $cachet_primary;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#blue h3 {
+    color: $cachet_gray_darker;
+    margin-left: 15px;
+}
