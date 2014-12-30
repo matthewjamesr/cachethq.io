@@ -29,3 +29,8 @@ about: Open Source StatusPage.io alternative written in PHP.
 exclude:
   - "bower.json"
   - "bower_components"
+  - "package.json"
+  - "npm_modules"
+  - "elixir.json"
+  - "gulpfile.js"
+  - "readme.md"
