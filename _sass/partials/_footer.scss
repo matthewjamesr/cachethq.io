@@ -1,0 +1,23 @@
+#footerwrap {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: $cachet_base_medium;
+}
+
+#footerwrap p {
+    color: $cachet_gray;
+}
+
+#footerwrap h4 {
+    color: $cachet_gray_darker;
+}
+
+#footerwrap i {
+    font-size: 30px;
+    color: $cachet_gray;
+    padding-right: 25px;
+}
+
+#footerwrap i:hover {
+    color: $cachet_primary;
+}
