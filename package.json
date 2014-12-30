@@ -1,0 +1,9 @@
+{
+  "scripts" : { 
+  	"postinstall" : "gulp publish"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.8",
+    "laravel-elixir": "*"
+  }
+}
