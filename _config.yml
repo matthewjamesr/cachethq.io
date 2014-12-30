@@ -20,6 +20,8 @@ social:
     url: https://twitter.com/cachethq
   - title: github
     url: https://github.com/cachethq
+  - title: envelope
+    url: mailto:support@cachethq.io
 
 # About text
 about: Open Source StatusPage.io alternative written in PHP.
