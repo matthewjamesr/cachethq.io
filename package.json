@@ -1,5 +1,5 @@
 {
-  "scripts" : { 
+  "scripts" : {
   	"postinstall" : "gulp publish"
   },
   "devDependencies": {
