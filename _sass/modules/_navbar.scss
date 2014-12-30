@@ -5,7 +5,7 @@
 }
 
 .navbar-default {
-    background-color: $cachet_base_light;
+    // background-color: rgba($cachet_base_light, .96);
 }
 
 .navbar>.container .navbar-brand {
@@ -39,4 +39,19 @@
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
     color: $cachet_primary;
     background-color: transparent;
+}
+
+.headroom {
+    transition: transform 200ms linear;
+}
+.headroom--pinned {
+    background-color: rgba($cachet_base_light, .96);
+    transform: translateY(0%);
+}
+.headroom--unpinned {
+    transform: translateY(-100%);
+}
+
+.headroom--top {
+    background-color: $cachet_base_light;
 }
