@@ -1,13 +1,14 @@
 ---
 # Front matter comment to ensure Jekyll properly reads file.
 ---
+// Import palette
+@import "palette";
 
 // Import dependencies
 @import "modules/icons";
 @import "modules/bootstrap";
 
 // Import globals
-@import "palette";
 @import "global";
 
 // Module overrides
