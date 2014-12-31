@@ -1,9 +1,9 @@
 // Brand colours.
 $brand-primary:         darken(#428bca, 6.5%) !default;
-$brand-success:         $cachet_primary !default;
-$brand-info:            $cachet_blue !default;
-$brand-warning:         $cachet_orange !default;
-$brand-danger:          $cachet_red !default;
+$brand-success:         $cachet-primary !default;
+$brand-info:            $cachet-blue !default;
+$brand-warning:         $cachet-orange !default;
+$brand-danger:          $cachet-red !default;
 
 // Default border radius
 $border-radius-base:        2px !default;

@@ -1,8 +1,8 @@
 
 .btn-theme {
   color: #fff;
-  background-color: $cachet_primary;
-  border-color: $cachet_secondary;
+  background-color: $cachet-primary;
+  border-color: $cachet-secondary;
 }
 .btn-theme:hover,
 .btn-theme:focus,
@@ -10,8 +10,8 @@
 .btn-theme.active,
 .open .dropdown-toggle.btn-theme {
   color: #999;
-  background-color: $cachet_base_medium;
-  border-color: $cachet_base_medium;
+  background-color: $cachet-base-medium;
+  border-color: $cachet-base-medium;
 }
 
 .dmbutton:hover,

@@ -15,11 +15,11 @@
 }
 
 .carousel-indicators li {
-    border-color: $cachet_secondary;
+    border-color: $cachet-secondary;
 }
 
 .carousel-indicators .active {
-    background: $cachet_primary;
+    background: $cachet-primary;
 }
 
 .carousel-caption {
@@ -29,7 +29,7 @@
     position: absolute;
     right: 0;
     p {
-        color: $cachet_base_dark;
+        color: $cachet-base-dark;
         font-weight: 300;
         font-size: 16px;
         text-shadow: none;
