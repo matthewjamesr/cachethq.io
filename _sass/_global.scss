@@ -6,7 +6,7 @@
 body {
     font-family: 'Lato', 'Helvetica Neue', 'Helvetica', sans-serif;
     font-weight: 400;
-    color: $cachet_gray;
+    color: $cachet-gray;
     background: #ffffff;
     height: 100%;
     margin: 0;
@@ -33,7 +33,7 @@ img {
 }
 
 a {
-    color: $cachet_link;
+    color: $cachet-link;
     padding: 0;
     margin: 0;
     text-decoration: none;
@@ -47,19 +47,19 @@ a {
 a:hover,
 a:focus {
   text-decoration: none;
-  color: $cachet_link_hover;
+  color: $cachet-link-hover;
 }
 
 ::-moz-selection  {
     color: #999;
     text-shadow:none;
-    background: $cachet_base_dark;
+    background: $cachet-base-dark;
 }
 
 ::selection {
     color: #999;
     text-shadow:none;
-    background: $cachet_base_dark;
+    background: $cachet-base-dark;
 }
 
 .centered {
@@ -67,7 +67,7 @@ a:focus {
 }
 
 #blue {
-    background: $cachet_primary;
+    background: $cachet-primary;
     margin-top: 60px;
     margin-bottom: 60px;
     padding-top: 25px;
@@ -75,6 +75,6 @@ a:focus {
 }
 
 #blue h3 {
-    color: $cachet_gray_darker;
+    color: $cachet-gray-darker;
     margin-left: 15px;
 }
