@@ -26,6 +26,19 @@ authors:
         url: mailto:joseph.cohen@dinkbit.com
       - title: github
         url: https://github.com/joecohens
+  grahamcampbell:
+    display_name: Graham Campbell
+    position: Developer
+    gravatar: 838bf3ed69d559cb46956c509c9464af
+    email: graham@mineuk.com
+    web: https://grahamjcampbell.co.uk
+    social:
+      - title: twitter
+        url: https://twitter.com/grahamjcampbell
+      - title: envelope
+        url: graham@mineuk.com
+      - title: github
+        url: https://github.com/GrahamCampbell
   thomas:
     display_name: Thomas Coleman
     position: Developer
