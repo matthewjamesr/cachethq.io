@@ -2,8 +2,8 @@
     <div class="row centered">
         <h3 class="mb">MEET OUR TEAM</h3>
 
-        {% for the_author in site.data.team.authors %}
-        {% assign author = site.data.team.authors[the_author.first] %}
+        {% for the_author in site.data.authors %}
+        {% assign author = site.data.authors[the_author.first] %}
         <div class="col-lg-3 col-md-3 col-sm-3">
             <div class="he-wrap tpl6">
                 <img src="http://www.gravatar.com/avatar/{{ author.gravatar }}?s=128" alt="">

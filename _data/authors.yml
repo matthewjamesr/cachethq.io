@@ -1,0 +1,73 @@
+# Team members
+james:
+  display_name: James Brooks
+  position: Lead Developer
+  gravatar: 13616b6551a3854378f9e6fea964e519
+  email: jbrooksuk@me.com
+  web: http://james-brooks.uk
+  social:
+    - title: envelope
+      url: mailto:jbrooksuk@me.com
+    - title: twitter
+      url: https://twitter.com/jbrooksuk
+    - title: github
+      url: https://github.com/jbrooksuk
+joecohens:
+  display_name: Joe Cohen
+  position: Developer
+  gravatar: b19a7e3567c963fe3116e140ab12b8c0
+  email: joseph.cohen@dinkbit.com
+  web: http://joecohens.com
+  social:
+    - title: twitter
+      url: https://twitter.com/joecohens
+    - title: envelope
+      url: mailto:joseph.cohen@dinkbit.com
+    - title: github
+      url: https://github.com/joecohens
+thomas:
+  display_name: Thomas Coleman
+  position: Developer
+  gravatar: f1caa5a80e83fad625ff3963a14ce3cf
+  email: tom@ilikeprograms.com
+  web: http://ilikeprograms.com
+  social:
+    - title: envelope
+      url: mailto:tom@ilikeprograms.com
+    - title: github
+      url: https://github.com/ilikeprograms
+manavo:
+  display_name: Philip Manavopoulos
+  position: Developer
+  gravatar: 604a97350ee8fa8940927e2a01c74038
+  email: manavo@gmail.com
+  web: http://manavo.com
+  social:
+    - title: envelope
+      url: mailto:manavo@gmail.com
+    - title: github
+      url: https://github.com/manavo
+ehesp:
+  display_name: Elliot Hesp
+  position: Developer
+  gravatar: 215db0deb447d97a916ea780771b8c64
+  email: elliot.hesp@gmail.com
+  web: https://elliothesp.co.uk
+  social:
+    - title: envelope
+      url: mailto:elliot.hesp@gmail.com
+    - title: github
+      url: https://github.com/ehesp
+Hipsterbrown:
+  display_name: Nick Hehr
+  position: Designer
+  # gravatar: not sure?
+  email: headhipster@hipsterbrown.com
+  web: http://hipsterbrown.com
+  social:
+    - title: twitter
+      url: https://twitter.com/hipsterbrown
+    - title: github
+      url: https://github.com/hipsterbrown
+    - title: codepen
+      url: http://codepen.io/HipsterBrown
