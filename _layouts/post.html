@@ -5,23 +5,27 @@ comments: true
 
 {% assign author = site.data.team.authors[page.author] %}
 <div class="container mtb">
-  <div class="post">
-    <header class="post-header">
-      <h1 class="post-title">{{ page.title }}</h1>
-      <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} &#8226; {{ author.display_name }}{% endif %}{% if page.meta %} &#8226; {{ page.meta }}{% endif %}</p>
-    </header>
+  <div class="row">
+    <div class="col-xs-12 col-xs-offset-0 col-md-8 col-md-offset-2">
+      <div class="post">
+        <header class="post-header">
+          <h1 class="post-title">{{ page.title }}</h1>
+          <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} &#8226; {{ author.display_name }}{% endif %}{% if page.meta %} &#8226; {{ page.meta }}{% endif %}</p>
+        </header>
 
-    <article class="post-content">
-      {{ content }}
-    </article>
+        <article class="post-content">
+          {{ content }}
+        </article>
 
-    {% include disqus.html %}
+        {% include disqus.html %}
 
-    <footer class="post-footer">
-      <div class="meta">
-        <img src="http://www.gravatar.com/avatar/{{ author.gravatar }}?s=40">
-        <span class="author"><a href="{{ author.website }}" target="_blank">{{ author.display_name }}</a></span>
+        <footer class="post-footer">
+          <div class="meta">
+            <img src="http://www.gravatar.com/avatar/{{ author.gravatar }}?s=40">
+            <span class="author"><a href="{{ author.website }}" target="_blank">{{ author.display_name }}</a></span>
+          </div>
+        </footer>
       </div>
-    </footer>
+    </div>
   </div>
 </div>
