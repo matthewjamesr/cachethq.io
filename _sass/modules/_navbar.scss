@@ -27,6 +27,12 @@
     }
 }
 
+@media (max-width: $screen-xs-max) {
+    .navbar >.container .navbar-brand {
+       margin-left: 10px;
+    }
+}
+
 .navbar-default .navbar-nav > li > a {
     font-weight: 700;
     font-size: 12px;
