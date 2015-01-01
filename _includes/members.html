@@ -10,11 +10,11 @@
             </div><!-- he wrap -->
             <h4>{{ author.display_name }}</h4>
             <h5 class="ctitle">{{ author.position }}</h5>
-            <p>{{ author.text }}</p>
-            {% for entry in author.social %}
-            <a href="{{ entry.url }}" class="a2"><i class="fa fa-{{ entry.title }}"></i></a>
-            {% endfor %}
-            <div class="hline"></div>
+            <p>
+                {% for entry in author.social %}
+                <a href="{{ entry.url }}" class="a2"><i class="icon ion-social-{{ entry.title }}"></i></a>
+                {% endfor %}
+            </p>
         </div>
         {% endfor %}
     </div>
