@@ -2,7 +2,7 @@
 title: CachetHQ
 email: jbrooksuk@me.com
 description: > # this means to ignore newlines until "baseurl:"
-  An open source Status Page system written in PHP & Laravel.
+    An open source Status Page system written in PHP & Laravel.
 baseurl: ""
 url: "https://cachethq.io" # the base hostname & protocol for your site
 timezone: Europe/London
@@ -11,29 +11,29 @@ project_title: Cachet
 # Build settings
 markdown: kramdown
 sass:
-  sass_dir: _sass
-  style: :compressed
+    sass_dir: _sass
+    style: :compressed
 
 # Social links (footer)
 social:
-  - title: twitter
-    url: https://twitter.com/cachethq
-    icon: ion-social-twitter
-  - title: github
-    url: https://github.com/cachethq
-    icon: ion-social-github
-  - title: email
-    url: mailto:support@cachethq.io
-    icon: ion-email
+    - title: twitter
+        url: https://twitter.com/cachethq
+        icon: ion-social-twitter
+    - title: github
+        url: https://github.com/cachethq
+        icon: ion-social-github
+    - title: email
+        url: mailto:support@cachethq.io
+        icon: ion-email
 
 # About text
 about: Open Source StatusPage.io alternative written in PHP.
 
 exclude:
-  - "bower.json"
-  - "bower_components"
-  - "package.json"
-  - "npm_modules"
-  - "elixir.json"
-  - "gulpfile.js"
-  - "readme.md"
+    - "bower.json"
+    - "bower_components"
+    - "package.json"
+    - "npm_modules"
+    - "elixir.json"
+    - "gulpfile.js"
+    - "readme.md"
