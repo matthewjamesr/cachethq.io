@@ -1,46 +1,46 @@
 #headerwrap {
-	background-color: $cachet-base-medium;
-	min-height: 550px;
-	padding-top: 100px;
-	padding-bottom: 0px;
-	text-align: center;
+    background-color: $cachet-base-medium;
+    min-height: 550px;
+    padding-top: 100px;
+    padding-bottom: 0px;
+    text-align: center;
 }
 
 #headerwrap h3, h4 {
-	color: $cachet-gray-darker;
-	font-weight: 400;
+    color: $cachet-gray-darker;
+    font-weight: 400;
 }
 
 #headerwrap h1 {
-	color: $cachet-base-dark;
-	margin-bottom: 25px;
+    color: $cachet-base-dark;
+    margin-bottom: 25px;
 }
 
 #headerwrap .img-responsive {
-	margin: 0 auto;
+    margin: 0 auto;
 }
 
 #download-now {
-	margin: 30px 0;
+    margin: 30px 0;
 }
 
 .features {
-	margin-top: 100px;
-	margin-bottom: 80px;
+    margin-top: 100px;
+    margin-bottom: 80px;
 
-	h4 {
-		font-weight: 700;
-	}
+    h4 {
+        font-weight: 700;
+    }
 
-	i {
-		color: $cachet-icons;
-		font-size: 60px;
-		padding: 15px;
-	}
+    i {
+        color: $cachet-icons;
+        font-size: 60px;
+        padding: 15px;
+    }
 
-	.feature {
-		min-height: 120px;
+    .feature {
+        min-height: 120px;
 
-	}
+    }
 
 }
