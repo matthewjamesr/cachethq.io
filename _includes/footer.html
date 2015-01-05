@@ -16,7 +16,7 @@
                 <div class="hline-b"></div>
                 <p>
                     {% for network in site.social %}
-                    <a href="{{ network.url }}" class="btn-social btn-outline"><i class="icons ion-social-{{ network.title }}"></i></a>
+                    <a href="{{ network.url }}" class="btn-social btn-outline"><i class="icons {{ network.icon }}"></i></a>
                     {% endfor %}
                 </p>
             </div>
