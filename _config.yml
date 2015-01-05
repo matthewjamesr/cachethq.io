@@ -18,10 +18,13 @@ sass:
 social:
   - title: twitter
     url: https://twitter.com/cachethq
+    icon: ion-social-twitter
   - title: github
     url: https://github.com/cachethq
-  - title: envelope
+    icon: ion-social-github
+  - title: email
     url: mailto:support@cachethq.io
+    icon: ion-email
 
 # About text
 about: Open Source StatusPage.io alternative written in PHP.
