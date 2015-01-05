@@ -2,15 +2,15 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="{{ site.description }}">
+    <meta name="description" content="{{ site.description | escape | strip_newlines }}">
     <meta name="author" content="">
     <meta property='fb:app_id' content='760338654003020'/>
     <meta property="og:type" content="website" />
     <meta property="og:title" content="{{ site.title }}{% if page.title %} - {{ page.title }}{% endif %}" />
-    <meta property="og:description" content="{{ site.description }}" />
+    <meta property="og:description" content="{{ site.description | escape | strip_newlines }}" />
     <meta property="og:url" content="{{ site.url }}{{ page.url | escape }}" />
     <meta property="og:site_name" content="CachetHQ" />
-    <meta property="og:image" content="{{ "/assets/img/CachetFB.png" | prepend: site.baseurl }}" />
+    <meta property="og:image" content="{{ site.url }}/assets/img/CachetFB.png" />
 
     <link rel="icon" type="image/png" href="{{ "/assets/img/favicon.ico" | prepend: site.baseurl }}">
     <link rel="shortcut icon" href="{{ "/assets/img/favicon.png" | prepend: site.baseurl }}" type="image/x-icon" />

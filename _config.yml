@@ -2,7 +2,7 @@
 title: CachetHQ
 email: jbrooksuk@me.com
 description: > # this means to ignore newlines until "baseurl:"
-  An open source Status Page system written in PHP &amp; Laravel.
+  An open source Status Page system written in PHP & Laravel.
 baseurl: ""
 url: "https://cachethq.io" # the base hostname & protocol for your site
 timezone: Europe/London
