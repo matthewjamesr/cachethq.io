@@ -24,10 +24,12 @@
 
 .carousel-caption {
     background: none;
-    bottom: -45px;
+    position: relative;
+    bottom: 0;
     left: 0;
-    position: absolute;
     right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
     p {
         color: $cachet-base-dark;
         font-weight: 300;
