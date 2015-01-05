@@ -1,13 +1,8 @@
 /* TEAM */
-Lead Developer: James Brooks
-Contact: jbrooksuk [at] me.com
-Twitter: @jbrooksuk
-From: Stoke-on-Trent, England
-
-Developer: Thomas Coleman (ilikeprograms)
-Contact: tom@ilikeprograms.com
-Website: http://ilikeprograms.com
+See our about page for team information.
 
 /* THANKS */
 
-Laravel: Taylor Otwell and everybody who makes it awesome.
+- Laravel: Taylor Otwell and everybody who makes it awesome.
+- Joe Cohens: Donating this domain.
+- Cloudflare: HTTPS support.
