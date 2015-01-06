@@ -16,13 +16,16 @@ sass:
 
 # Social links (footer)
 social:
-    - title: twitter
+    -
+        title: twitter
         url: https://twitter.com/cachethq
         icon: ion-social-twitter
-    - title: github
+    -
+        title: github
         url: https://github.com/cachethq
         icon: ion-social-github
-    - title: email
+    -
+        title: email
         url: mailto:support@cachethq.io
         icon: ion-email
 
