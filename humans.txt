@@ -4,5 +4,5 @@ See our about page for team information.
 /* THANKS */
 
 - Laravel: Taylor Otwell and everybody who makes it awesome.
-- Joe Cohens: Donating this domain.
+- Joe Cohen: Donating this domain.
 - Cloudflare: HTTPS support.
