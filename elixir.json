@@ -1,4 +1,5 @@
 {
-  "assetsDir": "_sass/libs/",
-  "bowerDir": "bower_components/"
+    "assetsDir": "_sass/libs/",
+    "bowerDir": "bower_components",
+    "production": true
 }
