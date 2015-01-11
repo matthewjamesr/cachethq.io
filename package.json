@@ -1,6 +1,6 @@
 {
   "scripts" : {
-    "postinstall" : "gulp publish"
+    "postinstall" : "gulp"
   },
   "dependencies": {
     "gulp": "~3.8.8",
