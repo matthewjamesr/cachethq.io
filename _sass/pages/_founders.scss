@@ -1,0 +1,23 @@
+.founders{
+
+  p { max-width: 600px; margin: 0 auto; }
+
+  margin-bottom: 100px;
+
+  #donate { margin-top: 20px; }
+
+  .donations {
+    margin-top:30px;
+    text-align: center;
+
+    ul {
+      display: inline-block;
+      margin: 0 auto;
+      list-style-type: none;
+
+      li {
+        text-align: left;
+      }
+    }
+  }
+}

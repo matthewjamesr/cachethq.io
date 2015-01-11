@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "scripts" : {
     "postinstall" : "gulp"
   },
@@ -6,4 +7,13 @@
     "gulp": "~3.8.8",
     "laravel-elixir": "~0.9.1"
   }
+=======
+    "scripts" : {
+        "postinstall" : "gulp publish"
+    },
+    "dependencies": {
+        "gulp": "~3.8.8",
+        "laravel-elixir": "~0.9.1"
+    }
+>>>>>>> 94f4e569a29b113df44785833382571bf08cb4b2
 }
